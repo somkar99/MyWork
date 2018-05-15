@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/accepted"
+        android:title="@string/Accepted"/>
+    <item
+        android:id="@+id/completed"
+        android:title="@string/Completed"/>
+    <item
+        android:id="@+id/hired"
+        android:title="@string/Hired"/>
+    <item
+        android:id="@+id/rejected"
+        android:title="@string/Rejected" />
+    <item
+        android:id="@+id/ongoing"
+        android:title="@string/Ongoing" />
+
+
+
+</menu>

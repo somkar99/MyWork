@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_vertical"
+
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@color/new_grey"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:paddingBottom="8dp"
+            android:textColor="@color/grey"
+            android:textSize="15sp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:hint="Enter Name"
+            android:inputType="textCapWords"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile No"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/grey"
+            android:textSize="15sp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/etMobNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:hint="Mob No"
+            android:maxLength="10"
+            android:inputType="number"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+       >
+
+        <Button
+            android:id="@+id/cbReset"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Reset"
+            android:background="@drawable/button_curve"
+            android:textColor="@color/white"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"></View>
+
+        <Button
+            android:id="@+id/cbSave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Save"
+            android:background="@color/green"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>

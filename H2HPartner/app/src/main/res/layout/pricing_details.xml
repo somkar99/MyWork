@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/greylight"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_greencurve"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="8dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="@string/Name"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/green" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="@string/MobileNumber"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/green" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/tvPricingName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="Vinayak Kadam"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/grey" />
+
+                        <TextView
+                            android:id="@+id/tvPricingNumber"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="9980934785"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/grey" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="8dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="@string/PrimaryBusiness"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/green" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/tvPricingPriBusiness"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="Plumber"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/grey" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/green"
+                        android:padding="8dp"
+                        android:text="@string/Services"
+                        android:textColor="@color/white"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/ServicesType"
+                        android:textColor="@color/green"
+                        android:textSize="14sp" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="4dp"
+                        android:elevation="4dp">
+
+                        <Spinner
+                            android:id="@+id/spServicetype"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:entries="@array/ServiceType"></Spinner>
+
+                    </android.support.v7.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/priceunit"
+                        android:textColor="@color/green"
+                        android:textSize="14sp" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="4dp"
+                        android:elevation="4dp"
+                        android:paddingLeft="8dp">
+
+                        <Spinner
+                            android:id="@+id/spPriceunit"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:entries="@array/PriceUnit">
+
+                        </Spinner>
+
+                    </android.support.v7.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/type"
+                        android:textColor="@color/green"
+                        android:textSize="14sp" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="4dp"
+                        android:elevation="4dp">
+
+                        <Spinner
+                            android:id="@+id/spType"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:entries="@array/PriceType">
+
+                        </Spinner>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/pricerange"
+                        android:textColor="@color/green"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/llRange"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:text="@string/from"
+                            android:textSize="14sp" />
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/edittext_border"
+                            android:paddingLeft="8dp"
+                            android:textSize="15sp">
+
+                            <EditText
+                                android:id="@+id/etPfrom"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"
+                                android:inputType="number"
+                                android:paddingLeft="8dp" />
+
+                        </android.support.v7.widget.CardView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:gravity="center_vertical|right"
+                            android:text="@string/to"
+                            android:textSize="14sp" />
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="4dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/edittext_border"
+                            android:paddingLeft="8dp"
+                            android:textSize="15sp">
+
+                            <EditText
+                                android:id="@+id/etPto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"
+                                android:inputType="number"
+                                android:paddingLeft="8dp" />
+
+                        </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llFixed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="8dp"
+                            android:text="@string/fixedamount"
+                            android:textColor="@color/green"
+                            android:textSize="14sp" />
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:elevation="4dp">
+
+                            <EditText
+                                android:id="@+id/etFixedamount"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"
+                                android:inputType="number"
+                                android:paddingLeft="8dp"></EditText>
+                        </android.support.v7.widget.CardView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llRate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="8dp"
+                            android:text="@string/rate"
+                            android:textColor="@color/green"
+                            android:textSize="14sp" />
+
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_margin="4dp"
+                            android:elevation="4dp">
+
+                            <EditText
+                                android:id="@+id/etRate"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"
+                                android:inputType="number"
+                                android:paddingLeft="8dp">
+                            </EditText>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/visitingcharge"
+                        android:textColor="@color/green"
+                        android:textSize="14sp" />
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="4dp"
+                        android:elevation="4dp">
+
+                        <EditText
+                            android:id="@+id/etVistingcharge"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:background="@android:color/transparent"
+                            android:paddingLeft="8dp"></EditText>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/Remark"
+                        android:textColor="@color/green"
+                        android:textSize="14sp" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:elevation="4dp">
+
+                        <EditText
+                            android:id="@+id/etRemark"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="textCapSentences"
+                            android:background="@android:color/transparent"
+                            android:paddingLeft="8dp"></EditText>
+
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <Button
+                            android:id="@+id/cbPreset"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_margin="4dp"
+                            android:background="@drawable/button_curve"
+                            android:paddingTop="8dp"
+                            android:text="@string/Reset"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+
+                        <Button
+                            android:id="@+id/cbPsave"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_margin="4dp"
+                            android:background="@drawable/button_curve"
+                            android:paddingTop="8dp"
+                            android:text="@string/Save"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+

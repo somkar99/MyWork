@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:padding="8dp"
+            android:src="@mipmap/username" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0.8">
+
+            <EditText
+                android:id="@+id/etUserId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:hint="@string/UserName"
+                android:text=""
+                android:inputType="textCapSentences"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:padding="8dp"
+            android:src="@mipmap/password" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0.8"
+           >
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:hint="@string/Password"
+                android:text=""
+                android:inputType="textPassword"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+      <ImageView
+          android:id="@+id/ivChk"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:visibility="gone"
+          android:layout_gravity="center_vertical"
+          android:src="@mipmap/checkedbox"
+          android:layout_marginLeft="24dp"/>
+
+        <ImageView
+            android:id="@+id/ivUnChk"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/uncheck"
+            android:visibility="visible"
+            android:tint="@color/green"
+            android:layout_marginLeft="24dp"/>
+        <TextView
+            android:id="@+id/tvRememberMe"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp"
+            android:text="@string/Rememberme"
+            android:paddingLeft="4dp"
+            android:gravity="center_vertical"
+            android:paddingRight="24dp"
+            />
+
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="@string/forgetpassword"
+            android:gravity="right"
+            android:paddingRight="16dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.2"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/cbLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_curve"
+            android:padding="12dp"
+            android:text="@string/Login"
+            android:textColor="@color/white"
+
+            ></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dont"
+            android:gravity="center"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tvSignup"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/Signup"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greylight"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.999"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            >
+            <!-- images-->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/border_greencurve"
+                    android:orientation="vertical">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/cvProfileImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/uploadprofile_icon"/>
+                        <ImageView
+                            android:id="@+id/ivaddprofileimage"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="60dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/curvebg_white"
+                            android:src="@mipmap/plusicon"/>
+                        <ImageView
+                            android:id="@+id/ivremoveprofileimage"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="top|right"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/cancel_icon"/>
+
+
+
+                    </FrameLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <!-- images-->
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_greencurve"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="8dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="@string/Name"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/green" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="@string/MobileNumber"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/green" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/tvPersonalName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="Vinayak Kadam"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/grey" />
+
+                        <TextView
+                            android:id="@+id/tvPersonalNumber"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="9980934785"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/grey" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="8dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="@string/PrimaryBusiness"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/green" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/tvPersonalPriBusiness"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:paddingRight="8dp"
+                            android:text="Plumber"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/grey" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="vertical"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:elevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.50"
+                            android:background="@color/green">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/UserName_Mandatory"
+                                android:textSize="20sp"
+                                android:paddingLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+                                <EditText
+                                    android:id="@+id/etPersonalusername"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"/>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="vertical"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:elevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.40"
+                            android:background="@color/green">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/Gender_Mandatory"
+                                android:textSize="20sp"
+                                android:paddingLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.6"
+                            android:orientation="vertical"
+                            android:weightSum="4">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="4"
+                                android:orientation="vertical">
+
+                                <RadioGroup
+                                    android:id="@+id/rgGender"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    >
+                                    <RadioButton
+                                        android:id="@+id/rbMale"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:buttonTint="@color/green"
+                                        android:textSize="16sp"
+                                        android:text="@string/Male"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rbFemale"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:buttonTint="@color/green"
+                                        android:text="@string/Female"
+                                        android:textSize="16sp"
+
+
+                                        />
+
+
+
+                                </RadioGroup>
+
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:elevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.25"
+                            android:background="@color/green">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/Category_Mandatory"
+                                android:textSize="20sp"
+                                android:paddingLeft="10dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical"
+                            android:weightSum="4">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="4"
+                                android:orientation="vertical">
+
+                                <RadioGroup
+                                    android:id="@+id/rgServices"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    >
+
+
+
+
+                                    <RadioButton
+                                        android:id="@+id/rbDiffrentlyAbled"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:buttonTint="@color/green"
+                                        android:textSize="16sp"
+                                        android:text="@string/DifferentlyAbled"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rbWomen"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:buttonTint="@color/green"
+                                        android:textSize="16sp"
+                                        android:text="@string/Women"
+
+                                        />
+
+                                    <RadioButton
+                                        android:id="@+id/rbEdler"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:buttonTint="@color/green"
+                                        android:textSize="16sp"
+                                        android:text="@string/Elderly"/>
+
+                                    <RadioButton
+                                        android:id="@+id/rbGeneral"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:buttonTint="@color/green"
+                                        android:textSize="16sp"
+                                        android:text="@string/General"
+                                        />
+
+
+                                </RadioGroup>
+
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:elevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.12"
+                            android:background="@color/green">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="10dp"
+                                android:text="@string/ContactDetails"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="13.6">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:paddingLeft="20dp"
+                                android:text="@string/AlternateNo"
+                                android:textSize="16sp"
+                                android:textColor="@color/green"
+                                />
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_weight="2.25"
+                                android:background="@drawable/border_greencurve"
+                                android:elevation="8dp"
+                                android:minHeight="48dp">
+
+                                <EditText
+                                    android:id="@+id/etAlternate"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/white"
+
+                                    android:inputType="number"
+                                    android:padding="12dp"
+                                    android:paddingLeft="8dp" />
+                            </android.support.v7.widget.CardView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:paddingLeft="20dp"
+                                android:textSize="16sp"
+                                android:text="@string/Landline"
+                                android:textColor="@color/green"
+                                />
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="2.25"
+                                android:background="@drawable/border_greencurve"
+                                android:elevation="8dp"
+                                >
+
+                                <EditText
+                                    android:id="@+id/etLandline"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/white"
+                                    android:inputType="number"
+                                    android:padding="12dp"
+                                    android:paddingLeft="8dp" />
+                            </android.support.v7.widget.CardView>
+
+                            <TextView
+                                android:id="@+id/tvResidentialAddress"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="16dp"
+                                android:textSize="16sp"
+                                android:text="Residential Address"
+                                android:textColor="@color/green" />
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/cvaddress"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="3.5"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@drawable/border_greencurve"
+                                android:elevation="8dp"
+                                >
+                                <TextView
+                                    android:id="@+id/tvAddress"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="70dp"
+                                    android:background="@drawable/dashboardbg"
+                                    android:maxLines="3"
+                                    android:paddingLeft="8dp"
+                                    android:textColor="@color/grey"
+                                    android:textSize="14sp"
+                                    android:clickable="true"
+                                    android:text="@string/AddAddress"
+                                    android:visibility="visible" />
+                            </android.support.v7.widget.CardView>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2.8"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <View
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".1"></View>
+
+                                <Button
+                                    android:id="@+id/cbreset"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight=".85"
+                                    android:background="@drawable/button_curve"
+                                    android:text="@string/Reset"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/white"
+                                    android:textSize="18sp" />
+
+                                <View
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".1"></View>
+
+                                <Button
+                                    android:id="@+id/cbSavepersonal"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight=".85"
+                                    android:background="@drawable/button_curve"
+                                    android:text="@string/Save"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/white"
+                                    android:textSize="18sp" />
+
+
+                                <View
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".1"></View>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <!--
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp">
+
+
+           <include android:id="@+id/footer"
+               layout="@layout/footer"></include>
+
+       </LinearLayout>
+    -->
+
+</LinearLayout>
+
+

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:layout_height="match_parent">
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:weightSum="5"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvOngoing"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Ongoing"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+        <TextView
+            android:id="@+id/tvHired"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Hired"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceSmall"/>
+        <TextView
+            android:id="@+id/tvAccecpted"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Accepted"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceSmall"/>
+        <TextView
+            android:id="@+id/tvRejected"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Rejected"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceSmall"/>
+        <TextView
+            android:id="@+id/tvCompleted"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Completed"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:weightSum="5">
+        <View
+            android:id="@+id/vCompleted"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"></View>
+
+        <View
+            android:id="@+id/vOngoing"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"></View>
+        <View
+            android:id="@+id/vHired"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"></View>
+
+
+        <View
+            android:id="@+id/vAccecpted"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"></View>
+        <View
+            android:id="@+id/vRejected"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"></View>
+
+    </LinearLayout>-->
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <View
+            android:layout_width="40dp"
+            android:layout_height="match_parent"></View>
+        <TextView
+            android:id="@+id/tvCaseType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="On going"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+
+            android:textColor="@color/white"
+            android:layout_weight="0.8"/>
+        <ImageView
+            android:id="@+id/ivFilter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:padding="5dp"
+            android:clickable="true"
+            android:tint="@color/white"
+            android:src="@drawable/fliter_icon"/>
+    </LinearLayout>
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.998"
+        android:background="@color/greylight">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcvMyCases"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="8"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>

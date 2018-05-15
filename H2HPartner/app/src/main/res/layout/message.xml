@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.999"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@color/green"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.08"
+                android:tint="@color/white"
+                android:src="@drawable/back_arrow1"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivChatProfileImage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.16"
+                android:background="@drawable/circuler_dummypic"
+                android:src="@drawable/uploadprofile_icon"
+
+                />
+
+            <TextView
+                android:id="@+id/tvCustName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.76"
+                android:text="Anirudh"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:textColor="@color/white"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/chat_bg"
+                android:alpha="0.3">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rcvMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical">
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </FrameLayout>
+
+
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/etSendMessage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.87"
+            android:paddingLeft="8dp"
+            android:maxLines="1"
+            android:inputType="textCapSentences"
+            android:background="@color/white"
+            android:hint="Type your Message here"
+            android:gravity="center_vertical"/>
+
+
+        <ImageView
+            android:id="@+id/ivSendMessage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.13"
+            android:layout_gravity="center"
+            android:src="@drawable/send_icon"
+            android:clickable="true"
+            android:backgroundTint="@color/green"
+            android:tint="@color/green"/>
+
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

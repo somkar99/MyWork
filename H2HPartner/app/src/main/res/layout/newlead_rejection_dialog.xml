@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="9.999">
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:minHeight="120dp"
+        android:background="@color/green">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@color/green"
+            android:elevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="3"
+                android:background="@color/green"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".60"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/white"
+                        android:text="Name"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:gravity="center_vertical"
+                        android:text="Mobile Number"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".60"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/black"
+                        android:paddingLeft="10dp"
+                        android:text="Vinay Zade"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:gravity="center_vertical"
+                        android:text="9870055219"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".60"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/white"
+                        android:text="Location"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@color/white"
+                        android:gravity="center_vertical"
+                        android:text="Booked On"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".60"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Kurla"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:gravity="center_vertical"
+                        android:text="10/07/2018"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Reason"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:paddingTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivBusyChecked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/check"
+                android:visibility="gone"
+                android:layout_weight="0.2"/>
+
+            <ImageView
+                android:id="@+id/ivBusyUnChecked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/uncheck"
+
+                android:layout_weight="0.2"/>
+
+            <TextView
+                android:id="@+id/tvBusy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_weight="0.8"
+                android:padding="8dp"
+                android:text="@string/Reason1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/grey"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:paddingTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivLocationFarChecked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/check"
+                android:visibility="gone"
+                android:layout_weight="0.2"/>
+
+            <ImageView
+                android:id="@+id/ivLocationFarUnChecked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/uncheck"
+                android:layout_weight="0.2"/>
+
+            <TextView
+                android:id="@+id/tvFar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_weight="0.8"
+                android:padding="8dp"
+                android:text="@string/Reason2"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/grey"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:paddingTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivDontProvideChecked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/check"
+                android:visibility="gone"
+                android:layout_weight="0.2"/>
+
+            <ImageView
+                android:id="@+id/ivDontProvideUnChecked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/uncheck"
+
+                android:layout_weight="0.2"/>
+
+            <TextView
+                android:id="@+id/tvDontProvide"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_weight="0.8"
+                android:padding="8dp"
+                android:text="@string/Reason3"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/grey"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:paddingTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivOtherChecked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/check"
+                android:visibility="gone"
+                android:layout_weight="0.2"/>
+
+            <ImageView
+                android:id="@+id/ivOtherUnChecked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/uncheck"
+
+                android:layout_weight="0.2"/>
+
+            <TextView
+                android:id="@+id/tvOther"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_weight="0.8"
+                android:padding="8dp"
+                android:text="@string/Reason4"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/grey"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvOtherreason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:visibility="gone"
+            android:layout_marginTop="8dp">
+        <EditText
+            android:id="@+id/etOtherReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:background="@color/white"
+            android:hint="@string/Reason5"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/grey"/>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cbReasonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/Submit1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_curve"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+</LinearLayout>

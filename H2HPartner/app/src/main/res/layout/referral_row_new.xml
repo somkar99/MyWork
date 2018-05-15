@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/white"
+    android:elevation="5dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/llRfRow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.999"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivRfProfileImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:paddingBottom="8dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/logo"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                    android:id="@+id/tvRfName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="4dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom"
+                    android:text="Abhishek Malhotra"
+                    android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/tvRfBusinessName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Hello"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:textSize="14sp"
+
+               />
+            <View
+                android:layout_width="150dp"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/grey"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.8"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.36"
+                    android:paddingLeft="4dp"
+                    android:text="@string/Registered_on"
+                    android:textSize="14sp"/>
+
+
+                <TextView
+                    android:id="@+id/tvRfRegisterOn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.64"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="@color/green"
+                    android:paddingLeft="1dp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvRfBlank"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:text=""
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:paddingLeft="1dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.01"
+        android:background="@color/grey"></View>
+
+
+</LinearLayout>

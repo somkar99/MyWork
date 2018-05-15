@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearfooter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:paddingTop="4dp"
+    android:weightSum="2">
+
+    <ImageView
+        android:id="@+id/ivLeads"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/newleads_icon"
+        app:layout_constraintBottom_toTopOf="@+id/tvLeads"
+        app:layout_constraintEnd_toStartOf="@+id/ivFAQ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivFAQ"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/faq_icon"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tvFAQ"
+        app:layout_constraintEnd_toStartOf="@+id/ivHome"
+        app:layout_constraintStart_toEndOf="@+id/ivLeads"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivHome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/homepage_icon"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tvHome"
+        app:layout_constraintEnd_toStartOf="@+id/ivMyCases"
+        app:layout_constraintStart_toEndOf="@+id/ivFAQ"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivMyCases"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/myrequest_icon"
+        android:tintMode="@color/white"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tvMyCases"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivHome"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvLeads"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/NewLeads"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvFAQ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLeads"></TextView>
+
+    <TextView
+        android:id="@+id/tvFAQ"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/FAQS"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvHome"
+        app:layout_constraintStart_toEndOf="@+id/tvLeads"
+        app:layout_constraintTop_toBottomOf="@+id/ivFAQ"></TextView>
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/Home"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvMyCases"
+        app:layout_constraintStart_toEndOf="@+id/tvFAQ"
+        app:layout_constraintTop_toBottomOf="@+id/ivHome"></TextView>
+
+    <TextView
+        android:id="@+id/tvMyCases"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/MyCases"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvHome"
+        app:layout_constraintTop_toBottomOf="@+id/ivMyCases"></TextView>
+
+
+</android.support.constraint.ConstraintLayout>

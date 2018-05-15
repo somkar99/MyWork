@@ -1,0 +1,327 @@
+<resources>
+    <string name="app_name">H2HPartner</string>
+    <string name="Started">"So,Lets Get Started"</string>
+    <string name="Message_text"><u>Message</u></string>
+    <string name="Call_text"><u>Call</u></string>
+    <string name="View"><u>View</u></string>
+
+    <string name="map_api_key">AIzaSyAeRYCo3X9eNwKIoEZYPHLmLKeEpzHuBws</string>
+    <string-array name="ServiceType">
+        <item>No Service Type</item>
+
+    </string-array>
+
+    <string-array name="PriceUnit">
+        <item>per Day</item>
+        <item>per Session</item>
+    </string-array>
+    <string-array name="PriceType">
+        <item>Range</item>
+        <item>Fixed</item>
+        <item>On inspection</item>
+        <item>Rate</item>
+    </string-array>
+
+    <string name="Splash1">Your Digital Journey Starts Here</string>
+    <string name="Splash2">Create Your Business Profile &amp; Grow Your Business</string>
+    <string name="Splash3">Track Ongoing project using our customised Messaging System</string>
+    <string name="SplashTitle1">Welcome To H2HPartner</string>
+    <string name="SplashTitle2">New Leads for you</string>
+    <string name="SplashTitle3">Satisfied Clients</string>
+    <string name="Signup"><u>Sign up</u></string>
+    <string name="ResendOTP"><u>Resend OTP</u></string>
+    <string name="getstarted">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="welcometo">Welcome to</string>
+
+    <string name="crash_toast_text">Crash Occurred....</string>
+    <string name="crash_dialog_text">Crash Occurred....</string>
+    <string name="crash_dialog_title">Crash Report</string>
+    <string name="crash_dialog_comment_prompt">Enter your comments</string>
+    <string name="crash_dialog_ok_toast">OK</string>
+    <string name="crash_mail">somkar99@gmail.com</string>
+
+
+    //Login
+    <string name="UserName">User Name/Mobile No/Email</string>
+    <string name="Password">Password</string>
+    <string name="Rememberme">Remember me</string>
+    <string name="forgetpassword"><u>Forgot Password?</u></string>
+    <string name="Login">Login</string>
+    <string name="dont">If you dont have account</string>
+
+    //Register
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="MobileNumber">MobileNumber</string>
+    <string name="PrimaryBusiness">Primary Business</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Referralcode">Referral code</string>
+
+    //Address
+    <string name="Locality">Locality</string>
+    <string name="FlatNo">Flat No,Apartment name</string>
+    <string name="change">Change</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="Address">Address</string>
+
+
+    //BaseActivity
+    <string name="H2HPartner">H2H Partner</string>
+    <string name="Aboutus">About us</string>
+    <string name="MyCases">My Cases</string>
+    <string name="Settings">Settings</string>
+    <string name="Referf">Refer Friend</string>
+    <string name="Writetous">Write To Us</string>
+    <string name="termscondn">Terms &amp; Conditions</string>
+    <string name="registertocus">Register as Customer</string>
+    <string name="Rateapp">Rate App</string>
+    <string name="Logout">Logout</string>
+
+    //Footer
+    <string name="Home">Home</string>
+    <string name="NewLeads">New Leads</string>
+    <string name="FAQS">FAQS</string>
+
+
+    //Personalinfo
+    <string name="Name">Name</string>
+    <string name="UserName_Mandatory">UserName*</string>
+    <string name="Gender_Mandatory">Gender*</string>
+    <string name="Category_Mandatory">Category*</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="DifferentlyAbled">Differently Abled</string>
+    <string name="Women">Women</string>
+    <string name="Elderly">Elderly</string>
+    <string name="General">General</string>
+    <string name="AlternateNo">Alternate No</string>
+    <string name="Landline">Landline Number</string>
+    <string name="ResAdd">Resident Address</string>
+    <string name="Reset">Reset</string>
+    <string name="Save">Save</string>
+    <string name="ContactDetails">Contact Details*</string>
+    <string name="AddAddress">Click Here To Add Address</string>
+
+    //Business
+    <string name="ServiceArea">Service Area Radius In KM</string>
+    <string name="Businessname_mandatory">Business Name*</string>
+    <string name="EstOn">Established On</string>
+    <string name="Radius">Radius</string>
+    <string name="Intro">Introduction</string>
+    <string name="Month">Month</string>
+    <string name="Year">Year</string>
+    <string name="WEB">Website url</string>
+    <string name="B_Contact">Business Contact Number</string>
+    <string name="B_Address">Business Address</string>
+    <string name="BusinessDet">Business Details</string>
+    <string name="Whytochose">Why customer should choose you ?</string>
+
+    //KYC
+    <string name="aadhar_man">AadharCard No*</string>
+    <string name="Note">Note for KYC Images</string>
+    <string name="KYC_Images">KYC Images</string>
+    <string name="Note_data">Upload Aadhar card,Passport or driving license (front side and back side)\n * Upload Profile Image or LOGO </string>
+
+    //WorkImages
+    <string name="WorkImages">Work Images</string>
+
+    //Pricing
+    <string name="Services">Services</string>
+    <string name="visitingcharge">Visiting Charge</string>
+    <string name="Remark">Remark</string>
+    <string name="rate">Rate</string>
+    <string name="from">From :</string>
+    <string name="to">To :</string>
+    <string name="fixedamount">Fixed Amount</string>
+    <string name="pricerange">Price Range</string>
+    <string name="type">Type :</string>
+    <string name="ServicesType">Service Type :</string>
+    <string name="priceunit">Price Unit :</string>
+
+    //References
+    <string name="References">References</string>
+
+    //Home
+    <string name="Welcome">Welcome</string>
+    <string name="Personal">Personal</string>
+    <string name="Business">Business</string>
+    <string name="Submit">Submit for Approval</string>
+    <string name="pricedetail">Pricing \nDetails</string>
+    <string name="workDoc">Work \n Document</string>
+    <string name="KYCDetails">KYC Details</string>
+    <string name="RegAs">You are Registered as</string>
+    <string name="Message">"Spare few minutes to complete your profile and connect with new Leads"</string>
+
+    //Upload
+    <string name="Upload">Upload</string>
+    <string name="Delete">Delete</string>
+    <string name="Edit">Edit</string>
+    <string name="Title">Title</string>
+    <string name="SelectImage">Select your Image Here</string>
+
+    //NewLeads
+    <string name="Distance">Distance</string>
+    <string name="Accept">Accept</string>
+    <string name="Reject">Reject</string>
+    <string name="Submit1">Submit</string>
+    <string name="Reason">Please Select Reason Why you want to reject?</string>
+    <string name="Reason1">Busy at Requested Date/Time</string>
+    <string name="Reason2">Customer Location is too far</string>
+    <string name="Reason3">We Do Not Provide This Service </string>
+    <string name="Reason4">Other</string>
+    <string name="Reason5">Please Enter Your Reason Here</string>
+
+    //MyCases
+    <string name="Ongoing">Ongoing</string>
+    <string name="Hired">Hired</string>
+    <string name="Accepted">Accepted</string>
+    <string name="Rejected">Rejected</string>
+    <string name="Completed">Completed</string>
+    <string name="WorkDetails">Work Details</string>
+    <string name="CustomerDet">Customer Details</string>
+
+    //MainHome
+    <string name="ActiveSince">Active Since</string>
+    <string name="Referral">Referral</string>
+    <string name="Reviews">Reviews</string>
+    <string name="LeadsCompleted">Leads \n Completed</string>
+    <string name="LeadsAccepted">Leads \n Accepted</string>
+    <string name="LeadsRejected">Leads \n Rejected</string>
+    <string name="AvgRating">Average \n Rating</string>
+    <string name="profilecompletion">Profile Completion</string>
+
+    //Referrals
+    <string name="Registered_on">Registered On :</string>
+
+    //Feedback
+    <string name="Feedback">Register On :</string>
+
+    //Settings
+    <string name="You_are_Signed">You are Signed in as</string>
+    <string name="Account_setting">Account Settings</string>
+    <string name="My_Profile">My Profile</string>
+    <string name="Change_Password">Change Password</string>
+    <string name="Language_setting_message">App needs to be restarted for language setting to be effective. Close app now?</string>
+    <string name="Language_setting_title">Language Setting</string>
+    <string name="Message_home">Message</string>
+
+    //Code Strings
+    <string name="Please_Enter_All_Details">Please enter all details</string>
+    <string name="Please_Enter_Valid">Please enter valid</string>
+    <string name="Internet_Not_Available">Internet not Available</string>
+    <string name="Username">UserName</string>
+    <string name="Enter_Valid_Password">enter a valid Pasword</string>
+    <string name="Internet_Down">Internet Network Down</string>
+    <string name="No_Data_Found">No Data Found</string>
+    <string name="No_Status">no Status</string>
+    <string name="No_Service_Exist">no services exist with search specified</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="First_Name">First Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="Mobile_No">Mobile No</string>
+    <string name="At_sign">\@</string>
+    <string name="Valid_Email_Address">valid email address</string>
+    <string name="Enter_Valid_Email">enter a valid email</string>
+    <string name="Enter_Valid_MobileNo">enter a valid mobile number</string>
+    <string name="Enter_Valid_First_Name">enter a valid first name</string>
+    <string name="Enter_Valid_Last_Name">enter a valid last name</string>
+    <string name="Password_Should_Match">password should match</string>
+    <string name="Invalid_Service">Service you Have Entered is Not Valid</string>
+    <string name="Personal_Information">personal information</string>
+    <string name="Business_Information">Business information</string>
+    <string name="Kyc_Information">KYC information</string>
+    <string name="Reference_Information">Reference information</string>
+    <string name="Pricing_Information">Pricing information</string>
+    <string name="Please_Enter">Please enter</string>
+    <string name="Closing_Application_Heading">Closing Application</string>
+    <string name="Are_You_Sure_Want_To_Exit">Are you sure you want to Exit</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="Profile_Completion">Profile Completion</string>
+    <string name="Your_Profile_Sent_For_Approval">Your Profile has been sent for Approval</string>
+    <string name="Profile_Rejected_Reason">Profile is Rejected Reason is</string>
+    <string name="Your_Profile_Is_Approved">Your Profile Is Approved \\n</string>
+    <string name="Persentage_Sign">%</string>
+    <string name="Few_Minutes_To_Complete_Profile">Spare few minutes to complete your profile and connect with new Leads,</string>
+    <string name="Personal_Details">Personal Details</string>
+    <string name="Building">Building</string>
+    <string name="Street">Street</string>
+    <string name="File_Upto_5GB">Please select file upto 5MB</string>
+    <string name="Business_Details">Business Details</string>
+    <string name="Radius_is">Radius is </string>
+    <string name="KM">\km..</string>
+    <string name="Please_Enter_Month">Please enter Month</string>
+    <string name="Month_Format">Month format - mm</string>
+    <string name="Invalid_month">Invalid month</string>
+    <string name="Please_Enter_Year">Please enter Year</string>
+    <string name="Year_Format">year format - yyyy</string>
+    <string name="Invalid_Year">Invalid Year(Year Should less than Current Year)</string>
+    <string name="Service_Area">Service Area</string>
+    <string name="Business_Name">Busniness Name</string>
+    <string name="Introduction">Introduction</string>
+    <string name="USP">Why Customer Should Choose You</string>
+    <string name="Complete_Business_Address">Complete Business Address</string>
+    <string name="Enter_Valid_Business_Number">enter a valid Business number</string>
+    <string name="Data_Validate">data validate</string>
+    <string name="Kyc_Details">Kyc Details</string>
+    <string name="Adhar_Card">Adhar Card</string>
+    <string name="Enter_Valid_Adhar_Number">enter a valid Adhar number</string>
+    <string name="All_Data_Valided_Successfully">All Data is Valided Successfully</string>
+    <string name="Confirmation">Confirmation</string>
+    <string name="Are_You_Want_Delete_Documents">Are you sure , you want to delete document</string>
+    <string name="Please_Upload_Atlest_One_Image">Please Upload atlest One Image</string>
+    <string name="Adhar_Card_Details_Not_Stored">Adhar Card Details are not stored</string>
+    <string name="Work_Images">Work Images</string>
+    <string name="No_Image_Found">No Image Found</string>
+    <string name="Please_Attach_Related_doucment">Please attach related document</string>
+    <string name="OK">Ok</string>
+    <string name="Title_Required">Title required</string>
+    <string name="Cant_Have_Doc_With_Same_Name">You cannot have the document with same name</string>
+    <string name="Reference_Details">Reference Details</string>
+    <string name="Contact_Name">Conatct name</string>
+    <string name="Contact_No">Conatct no</string>
+    <string name="Enter_Valid_Contact_No">enter a valid Contact number</string>
+    <string name="Please_Add_Atlest_One_Reference">Please Add Atlest One Reference</string>
+    <string name="No_Record_Present_in_refernce">No Record is present in reference</string>
+    <string name="Pricing">Pricing</string>
+    <string name="Update_Successfully">Updated Successfully</string>
+    <string name="Pricing_Details">Pricing Details</string>
+    <string name="Service_Type">Service Type</string>
+    <string name="Price_Unit">Price Unit</string>
+    <string name="Type">Type</string>
+    <string name="Range_From">Range From</string>
+    <string name="Range_To">Range To</string>
+    <string name="Range_must_Be_Greater">Range From (Range To must be greater than Range From)</string>
+    <string name="Fixed_Amount">Fixed Amount</string>
+    <string name="Rate">Rate</string>
+    <string name="Visiting_Charge">Visiting Charge</string>
+    <string name="No_Service_Type">No Service Type</string>
+    <string name="New_Leads">New Leads</string>
+    <string name="Parameters_Incorrect">Parameters Incorrect</string>
+    <string name="Mobile_No_Not_Shared">Mobile No Not Shared</string>
+    <string name="Customer_Has_Disabled_This_Option">Customer has Disabled This Option</string>
+    <string name="Profile_Not_Completed_Waiting_Approval">Your Profile is not complete or waiting for approval</string>
+    <string name="No_New_Leads">No New Leads</string>
+    <string name="Leads_Details">Leads Details</string>
+    <string name="My_Cases">My Cases</string>
+    <string name="Please_Select_Rejection_Reason">Please Select Rejection Reason</string>
+    <string name="No_FAQ_Present">No FAQs Present in DataBase</string>
+    <string name="No_Reviews">No Reviews Received yet.</string>
+    <string name="Messages">Messages</string>
+    <string name="Referrals">Referrals</string>
+    <string name="No_Referrals">No Referrals.</string>
+    <string name="Hired_Cases">Hired Cases</string>
+    <string name="Accepted_Cases">Accepted Cases</string>
+    <string name="Rejected_Cases">Rejected Cases</string>
+    <string name="Ongoing_Cases">Ongoing Cases</string>
+    <string name="Completed_Cases">Completed Cases</string>
+    <string name="No_Cases_Found">No Cases Found</string>
+    <string name="Default_Language_is_same">Default language is same as Selected one</string>
+    <string name="Account_Settings">Account Settings</string>
+    <string name="Confirm_Pasword_Not_Equal_To_NewPassword">Confirm password is not similar to new password</string>
+
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    style="@style/AppTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="3"
+    android:orientation="vertical"
+    android:background="@drawable/border_curve">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/green"
+        android:gravity="center_vertical"
+        android:drawablePadding="8dp"
+        android:padding="5dp"
+        android:text="Message Title"
+        android:textColor="@color/white"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp" />
+
+
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Message"
+        android:textColor="@color/green"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/llOkCancel"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:paddingBottom="8dp"
+        android:weightSum="2">
+
+        <View
+            android:id="@+id/blankView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/blankViewOK"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/cbCancel"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@drawable/button_curve"
+            android:text="Cancel"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"></View>
+
+
+        <Button
+            android:id="@+id/cbOK"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@drawable/button_curve"
+            android:text="OK"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/greylight"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/flDoc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:layout_margin="8dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/ivDocImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cancel_icon"
+            android:layout_gravity="right"
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvAddDoc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:layout_margin="8dp"
+        android:text="@string/SelectImage"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:gravity="center"
+        android:textColor="@color/grey"
+        android:background="@color/white"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        app:cardElevation="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        >
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/Title"
+            android:paddingLeft="8dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            />
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"></View>
+
+    <Button
+        android:id="@+id/cbUpload"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/button_curve"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:id="@+id/llEdit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+
+        <Button
+            android:id="@+id/cbDelete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="@drawable/button_curve"
+            android:text="@string/Delete"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"></View>
+
+        <Button
+            android:id="@+id/cbEdit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="@drawable/button_curve"
+            android:text="@string/Edit"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</LinearLayout>

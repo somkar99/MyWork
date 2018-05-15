@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_nine"
+            android:orientation="vertical"
+
+            android:layout_marginLeft="32dp"
+            android:layout_gravity="right"
+            >
+
+            <TextView
+                android:id="@+id/tvVMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:text="kjjjjnwj jgvhmgbswl;swksw
+
+                iykhvnfvjhg  nknk njnjnj jnjnjnjjnjnj"
+                android:paddingBottom="4dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvVDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingTop="2dp"
+                android:text="22/3/2018 14:23"
+                android:textSize="10sp"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:paddingBottom="4dp"/>
+        </LinearLayout>
+    </LinearLayout>

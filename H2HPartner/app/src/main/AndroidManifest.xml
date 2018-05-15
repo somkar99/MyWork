@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.h2hpartner">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Pushy Declarations -->
+
+
+        <!-- Pushy Notification Receiver -->
+        <!-- Incoming push notifications will invoke the following BroadcastReceiver -->
+        <receiver
+            android:name=".Services.PushReceiver"
+            android:exported="false">
+            <intent-filter>
+
+                <!-- Do not modify this -->
+                <action android:name="pushy.me" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Pushy Update Receiver -->
+        <!-- Do not modify - internal BroadcastReceiver that restarts the listener service -->
+        <receiver
+            android:name="me.pushy.sdk.receivers.PushyUpdateReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Pushy Boot Receiver -->
+        <!-- Do not modify - internal BroadcastReceiver that restarts the listener service -->
+        <receiver
+            android:name="me.pushy.sdk.receivers.PushyBootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Pushy Socket Service -->
+        <!-- Do not modify - internal socket service -->
+        <service android:name="me.pushy.sdk.services.PushySocketService" />
+
+        <!-- End Pushy Declarations -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_api_key" />
+
+        <activity android:name=".UI.ApprovedVendorHome" />
+        <activity android:name=".UI.Home" />
+        <activity android:name=".UI.Personalinfo" />
+        <activity android:name=".UI.BusinessInfo" />
+        <activity android:name=".UI.KycInfo" />
+        <activity android:name=".UI.Uploadworkimages" />
+        <activity android:name=".UI.ReferencesInfo" />
+        <activity android:name=".UI.PricingDetails" />
+        <activity android:name=".UI.Pricing" />
+        <activity android:name=".UI.Register" />
+        <activity android:name=".UI.ChangePassword" />
+        <activity android:name=".UI.Setting" />
+        <activity android:name=".UI.MyCases" />
+        <activity android:name=".UI.Faqs" />
+        <activity android:name=".UI.Login" />
+        <activity android:name=".UI.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Services.Broadcast" />
+        <activity android:name=".UI.NewLeads" />
+        <activity android:name=".UI.SplashExtended" />
+        <activity android:name=".UI.CustomerFeedback" />
+        <activity android:name=".UI.SelectKycImage" />
+        <activity android:name=".UI.SelectWorkImages" />
+        <activity android:name=".UI.NewLeads_Detail" />
+        <activity android:name=".UI.AccountSetting" />
+        <activity android:name=".UI.Message" />
+        <activity android:name=".UI.Referrals" />
+        <activity android:name=".UI.Message_Conv" />
+        <activity android:name=".UI.ServerDown"></activity>
+    </application>
+
+</manifest>

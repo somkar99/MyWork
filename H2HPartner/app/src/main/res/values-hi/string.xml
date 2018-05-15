@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">अच् 2 अच् पार्टनर</string>
+    <string name="Started">"So,Lets Get Started"</string>
+    <string name="Message_text"><u>संदेश</u></string>
+    <string name="Call_text"><u>कॉल</u></string>
+    <string name="View"><u>व्यू</u></string>
+
+    <string name="map_api_key">AIzaSyAeRYCo3X9eNwKIoEZYPHLmLKeEpzHuBws</string>
+    <string-array name="ServiceType">
+        <item>No Service Type</item>
+
+    </string-array>
+
+    <string-array name="PriceUnit">
+        "<item>हर दिन
+</item>"
+        <item>per Session</item>
+    </string-array>
+    <string-array name="PriceType">
+        <item>Range</item>
+        <item>Fixed</item>
+        <item>On inspection</item>
+        <item>Rate</item>
+    </string-array>
+
+    <string name="Splash1">आपकी डिजिटल यात्रा यहां शुरू होती है</string>
+    "
+    <string name="Splash2">अपना व्यवसाय प्रोफाइल बनाएं
+ और अपना व्यवसाय बढ़ाएं></string>
+    <string name="Splash3">हमारी अनुकूलित संदेश प्रणाली का उपयोग कर चल रहे प्रोजेक्ट को ट्रैक करें</string>
+    <string name="SplashTitle1">वेलकम टू अच् २ अच् पार्टनर </string>
+    <string name="SplashTitle2">आपके लिए नया ग्राहक</string>
+    <string name="SplashTitle3">संतुष्ट ग्राहक</string>
+    <string name="Signup"><u>साइन अप करें</u></string>
+    <string name="ResendOTP"><u>ओटीपी पुनः भेजें</u></string>
+    <string name="getstarted">शुरू कीजिये </string>
+    <string name="skip">आगे बढ़ें</string>
+    <string name="welcometo">स्वागत हे</string>
+
+
+    <string name="crash_toast_text">Crash Occurred....</string>
+    <string name="crash_dialog_text">Crash Occurred....</string>
+    <string name="crash_dialog_title">Crash Report</string>
+    <string name="crash_dialog_comment_prompt">Enter your comments</string>
+    <string name="crash_dialog_ok_toast">OK</string>
+    <string name="crash_mail">somkar99@gmail.com</string>
+
+
+    //Login
+    <string name="UserName">उपयोगकर्ता का नाम / मोबाइल नंबर / ईमेल</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="Rememberme">मुझे याद रखना</string>
+    <string name="forgetpassword"><u>पासवर्ड भूल गए?</u></string>
+    <string name="Login">लॉग इन करें</string>
+    <string name="dont">यदि आपके पास खाता नहीं है</string>
+
+    //Register
+    <string name="FirstName">नाम</string>
+    <string name="LastName">उपनाम</string>
+    <string name="Email">ईमेल</string>
+    <string name="MobileNumber">मोबाइल नंबर</string>
+    <string name="PrimaryBusiness">प्राथमिक व्यापार</string>
+    <string name="ConfirmPassword">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="Referralcode">रेफरल कोड</string>
+
+    //Address
+    <string name="Locality">इलाका</string>
+    <string name="FlatNo">फ्लैट नंबर, अपार्टमेंट का नाम</string>
+    <string name="change">परिवर्तन</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="ok">ठीक</string>
+    <string name="Address">पता</string>
+
+
+    //BaseActivity
+    <string name="H2HPartner">अच् 2 अच् पार्टनर</string>
+    <string name="Aboutus">हमारे बारे में</string>
+    <string name="MyCases">मेरे ग्राहक</string>
+    <string name="Settings">सेटिंग्स</string>
+    <string name="Referf">मित्र को बताएँ</string>
+    <string name="Writetous">हमें लिखें</string>
+    <string name="termscondn">नियम एवं शर्तें</string>
+    <string name="registertocus">ग्राहक के रूप में रजिस्टर करें</string>
+    <string name="Rateapp">एप्लिकेशन का मूल्यांकन करें</string>
+    <string name="Logout">लोग आउट</string>
+
+    //Footer
+    <string name="Home">होम</string>
+    <string name="NewLeads">नया ग्राहक</string>
+    <string name="FAQS">पूछे जाने वाले प्रश्न</string>
+
+
+    //Personalinfo
+    <string name="Name">नाम</string>
+    <string name="UserName_Mandatory">उपयोगकर्ता नाम*</string>
+    <string name="Gender_Mandatory">लिंग*</string>
+    <string name="Category_Mandatory">वर्ग*</string>
+    <string name="Male">नर</string>
+    <string name="Female">महिला</string>
+    <string name="DifferentlyAbled">निःशक्तजन</string>
+    <string name="Women">महिलाओं</string>
+    <string name="Elderly">बुज़ुर्ग</string>
+    <string name="General">सामान्य</string>
+    <string name="AlternateNo">वैकल्पिक संख्या</string>
+    <string name="Landline">लैंडलाइन नंबर</string>
+    <string name="ResAdd">निवासी पता</string>
+    <string name="Reset">रीसेट</string>
+    <string name="Save">सेव</string>
+    <string name="ContactDetails">संपर्क विवरण*</string>
+    <string name="AddAddress">पता जोड़ने के लिए यहां क्लिक करें</string>
+
+    //Business
+    <string name="ServiceArea">सर्विस एरिया का KM चुनिए </string>
+    <string name="Businessname_mandatory">व्यवास्यक नाम*</string>
+    <string name="EstOn">पर स्थापित</string>
+    <string name="Radius">त्रिज्या</string>
+    <string name="Intro">परिचय</string>
+    <string name="Month">महीना</string>
+    <string name="Year">साल</string>
+    <string name="WEB">वेबसाइट यू.आर.एल</string>
+    <string name="B_Contact">व्यापार संपर्क संख्या</string>
+    <string name="B_Address">व्यावसायिक पता</string>
+    <string name="BusinessDet">व्यावसायिक विवरण</string>
+    <string name="Whytochose">ग्राहक आपको क्यों चुनना चाहिए?</string>
+
+    //KYC
+    <string name="aadhar_man">आधार कार्ड नं*</string>
+    <string name="Note">केवाईसी छवियों के लिए नोट</string>
+    <string name="KYC_Images">KYC इमेजिस</string>
+    <string name="Note_data">आधार कार्ड, पासपोर्ट या ड्राइविंग लाइसेंस अपलोड करें (सामने की ओर और पीछे की ओर) \ n * प्रोफ़ाइल छवि या लोगो अपलोड करें </string>
+
+    //WorkImages
+    <string name="WorkImages">कार्य छवियां</string>
+
+    //Pricing
+    <string name="Services">सेवाएं</string>
+    <string name="visitingcharge">विज़िटिंग शुल्क</string>
+    <string name="Remark">टिप्पणी</string>
+    <string name="rate">मूल्यांकन करें</string>
+    <string name="from">से :</string>
+    <string name="to">तक :</string>
+    <string name="fixedamount">निर्धारित रकम</string>
+    <string name="pricerange">मूल्य सीमा</string>
+    <string name="type">प्रकार :</string>
+    <string name="ServicesType">सेवा प्रकार :</string>
+    <string name="priceunit">कीमत दर :</string>
+
+    //References
+    <string name="References">संदर्भ</string>
+
+    //Home
+    <string name="Welcome">स्वागत</string>
+    <string name="Personal">वैयक्तिक</string>
+    <string name="Business">व्यापार</string>
+    <string name="Submit">अनुमोदन के लिए सबमिट करें</string>
+    <string name="pricedetail">मूल्य निर्धारण \nनिर्धारण</string>
+    <string name="workDoc">कार्य \n दस्तावेज़</string>
+    <string name="KYCDetails">केवाईसी विवरण</string>
+    <string name="RegAs">You are Registered as</string>
+    <string name="Message">"Spare few minutes to complete your profile and connect with new Leads"</string>
+
+    //Upload
+    <string name="Upload">अपलोड</string>
+    <string name="Delete">डिलीट</string>
+    <string name="Edit">एडिट</string>
+    <string name="Title">शीर्षक</string>
+    <string name="SelectImage">यहां अपनी छवि का चयन करें</string>
+
+    //NewLeads
+    <string name="Distance">दूरी</string>
+    <string name="Accept">स्वीकार करना</string>
+    <string name="Reject">अस्वीकार</string>
+    <string name="Submit1">जमा करें</string>
+    <string name="Reason">कृपया कारण का चयन करें कि आप क्यों अस्वीकार करना चाहते हैं?</string>
+    <string name="Reason1">अनुरोधित तिथि / समय पर व्यस्त</string>
+    <string name="Reason2">ग्राहक स्थान बहुत दूर है</string>
+    <string name="Reason3">हम इस सेवा को प्रदान नहीं करते हैं </string>
+    <string name="Reason4">अन्य</string>
+    <string name="Reason5">कृपया अपना कारण यहां दर्ज करें</string>
+
+    //MyCases
+    <string name="Ongoing">चल रही है</string>
+    <string name="Hired">नियुक्त किया</string>
+    <string name="Accepted">स्वीकार किया</string>
+    <string name="Rejected">अस्वीकृत</string>
+    <string name="Completed">समाप्त</string>
+    <string name="WorkDetails">कार्य विवरण</string>
+    <string name="CustomerDet">उपभोक्ता विवरण</string>
+
+    //MainHome
+    <string name="ActiveSince">कब से</string>
+    <string name="Message_home">संदेश</string>
+    <string name="Referral">रेफरल</string>
+    <string name="Reviews">समीक्षा</string>
+    <string name="LeadsCompleted">संपूरित लीड</string>
+    <string name="LeadsAccepted">स्वीकृत लीड</string>
+    <string name="LeadsRejected">अस्वीकृत लीड</string>
+    <string name="AvgRating">औसत \n रेटिंग</string>
+    <string name="profilecompletion">प्रोफाइल प्राप्ति</string>
+
+    //Referrals
+    <string name="Registered_on">रजिस्टर्ड :</string>
+
+    //Feedback
+    <string name="Feedback">रजिस्टर्ड :</string>
+
+    //Settings
+    <string name="You_are_Signed">आपने साइन इन किया है</string>
+    <string name="Account_setting">अकाउंट सेटिंग</string>
+    <string name="My_Profile">मेरी प्रोफाइल</string>
+    <string name="Change_Password">पासवर्ड बदलें</string>
+    <string name="Language_setting_message">भाषा सेटिंग प्रभावी होने के लिए ऐप को पुनरारंभ करने की आवश्यकता है। अब ऐप बंद करें?</string>
+    <string name="Language_setting_title">भाषा सेटिंग</string>
+
+
+    //Code
+
+    <string name="Please_Enter_All_Details">कृपया सभी विवरण दर्ज करें</string>
+    <string name="Please_Enter_Valid">कृपया मान्य दर्ज करें</string>
+    <string name="Internet_Not_Available">इंटरनेट उपलब्ध नहीं है</string>
+    <string name="Username">उपयोगकर्ता नाम</string>
+    <string name="Enter_Valid_Password">वैध पासवर्ड दर्ज करें</string>
+    <string name="Internet_Down">इंटरनेट नेटवर्क काम नहीं कर रहा है</string>
+    <string name="No_Data_Found">कोई डेटा नहीं मिला</string>
+    <string name="No_Status">no Status</string>
+    <string name="No_Service_Exist">निर्दिष्ट खोज के साथ कोई सेवा मौजूद नहीं है</string>
+    <string name="Confirm_Password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="First_Name">प्रथम नाम</string>
+    <string name="Last_Name">रनेम</string>
+    <string name="Mobile_No">मोबाइल नंबर</string>
+    <string name="At_sign">\@</string>
+    <string name="Valid_Email_Address">वैध ईमेल</string>
+    <string name="Enter_Valid_Email">वैध ईमेल दर्ज करें</string>
+    <string name="Enter_Valid_MobileNo">वैध मोबाइल नंबर दर्ज करें</string>
+    <string name="Enter_Valid_First_Name">वैध प्रथम नाम दर्ज करें</string>
+    <string name="Enter_Valid_Last_Name">वैध सरनेम दर्ज करें</string>
+    <string name="Password_Should_Match">पासवर्ड मिलना चाहिए</string>
+    <string name="Invalid_Service">आपके द्वारा दर्ज की गई सेवा वैध नहीं है</string>
+    <string name="Personal_Information">व्यक्तिगत जानकारी</string>
+    <string name="Business_Information">व्यवसाय जानकारी</string>
+    <string name="Kyc_Information">केवाईसी जानकारी</string>
+    <string name="Reference_Information">संदर्भ जानकारी</string>
+    <string name="Pricing_Information">लागत - निर्धारण संबंधी जानकारी</string>
+    <string name="Please_Enter">कृपया दर्ज करें</string>
+    <string name="Closing_Application_Heading"> एप्लीकेशन  बंद किया जा रहा है</string>
+    <string name="Are_You_Sure_Want_To_Exit">क्या आप निसंदेह बाहर निकलना चाहते हैं</string>
+    <string name="YES">हाँ</string>
+    <string name="NO">नहीं</string>
+    <string name="Profile_Completion">प्रोफाइल प्राप्ति</string>
+    <string name="Your_Profile_Sent_For_Approval">आपकी प्रोफ़ाइल स्वीकृति के लिए भेजी गई है</string>
+    <string name="Profile_Rejected_Reason">प्रोफाइल अस्वीकार कर दिया गया है, कारण है</string>
+    <string name="Your_Profile_Is_Approved">आपकी प्रोफ़ाइल स्वीकृत है  \n</string>
+    <string name="Persentage_Sign">%</string>
+    <string name="Few_Minutes_To_Complete_Profile">अपनी प्रोफ़ाइल को पूरा करने और नए लीड्स से जुड़ने के लिए कुछ ही मिनट</string>
+    <string name="Personal_Details">व्यक्तिगत जानकारी</string>
+    <string name="Building">इमारत</string>
+    <string name="Street">मार्ग</string>
+    <string name="File_Upto_5GB">कृपया 5 एमबी तक फ़ाइल अपलोड करें</string>
+
+    <string name="Business_Details">व्यवसाय जानकारी</string>
+    <string name="Radius_is">रेडियस </string>
+    <string name="KM">\km..</string>
+    <string name="Please_Enter_Month">कृपया महीना दर्ज करें</string>
+    <string name="Month_Format">महीना फार्मेट -mm</string>
+    <string name="Invalid_month">अमान्य महीना</string>
+    <string name="Please_Enter_Year">कृपया वर्ष दर्ज करें</string>
+    <string name="Year_Format">वर्ष फार्मेट-YYYY</string>
+    <string name="Invalid_Year">अमान्य वर्ष (वर्ष वर्तमान वर्ष से कम होना चाहिए)</string>
+    <string name="Service_Area">सेवा क्षेत्र</string>
+    <string name="Business_Name">व्यवसाय का नाम</string>
+    <string name="Introduction">प्रस्तावना</string>
+    <string name="USP">ग्राहक आपको क्यों चुनना चाहिए</string>
+    <string name="Complete_Business_Address">व्यवसाय का पूरा पता</string>
+    <string name="Enter_Valid_Business_Number">वैध  व्यापार संख्या दर्ज करें</string>
+    <string name="Data_Validate">डेटा मान्य</string>
+    <string name="Kyc_Details">केवाईसी जानकारी</string>
+    <string name="Adhar_Card">आधार कार्ड</string>
+    <string name="Enter_Valid_Adhar_Number">वैध आधार संख्या दर्ज करें</string>
+    <string name="All_Data_Valided_Successfully">सभी डेटा सफलतापूर्वक मान्य है</string>
+    <string name="Confirmation">पुष्टीकरण</string>
+    <string name="Are_You_Want_Delete_Documents">क्या आप वाकई दस्तावेज़ हटाना चाहते हैं</string>
+    <string name="Please_Upload_Atlest_One_Image">कृपया कम से कम एक छवि अपलोड करें</string>
+    <string name="Adhar_Card_Details_Not_Stored">आधार कार्ड विवरण संग्रहित नहीं हैं</string>
+    <string name="Work_Images">कार्य संबंधित छवियों</string>
+    <string name="No_Image_Found">कोई छवि नहीं मिली</string>
+    <string name="Please_Attach_Related_doucment">कृपया संबंधित दस्तावेज़ संलग्न करें</string>
+    <string name="OK">ओके</string>
+    <string name="Title_Required">शीर्षक आवश्यक है</string>
+    <string name="Cant_Have_Doc_With_Same_Name">आपके पास समान नाम वाले दस्तावेज़ नहीं हो सकते हैं</string>
+    <string name="Reference_Details">संदर्भ जानकारी</string>
+    <string name="Contact_Name">संपर्क नाम</string>
+    <string name="Contact_No">संपर्क नंबर</string>
+    <string name="Enter_Valid_Contact_No">वैध  संपर्क संख्या दर्ज करें</string>
+    <string name="Please_Add_Atlest_One_Reference">कृपया कम से कम एक संदर्भ जोड़ें</string>
+    <string name="No_Record_Present_in_refernce">संदर्भ में कोई रिकॉर्ड मौजूद नहीं है</string>
+    <string name="Pricing">मूल्य निर्धारण</string>
+    <string name="Update_Successfully">अद्यतन सफलतापूर्ण हो गया</string>
+    <string name="Pricing_Details">लागत - निर्धारण संबंधी जानकारी</string>
+    <string name="Service_Type">सेवा प्रकार</string>
+    <string name="Price_Unit">कीमत दर</string>
+    <string name="Type">प्रकार</string>
+    <string name="Range_From">से रेंज</string>
+    <string name="Range_To">रेंज तक</string>
+    <string name="Range_must_Be_Greater">से रेंज (रेंज, से रेंज से अधिक होना चाहिए)</string>
+    <string name="Fixed_Amount">निर्धारित रकम</string>
+    <string name="Rate">मूल्य</string>
+    <string name="Visiting_Charge">विज़िटिंग शुल्क</string>
+    <string name="No_Service_Type">कोई सेवा प्रकार नहीं</string>
+    <string name="New_Leads">नई लीड</string>
+    <string name="Parameters_Incorrect">पैरामीटर गलत</string>
+    <string name="Mobile_No_Not_Shared">मोबाइल नंबर साझा नहीं किया गया है</string>
+    <string name="Customer_Has_Disabled_This_Option">ग्राहक ने इस विकल्प को अक्षम कर दिया है</string>
+    <string name="Profile_Not_Completed_Waiting_Approval">आपकी प्रोफ़ाइल पूर्ण नहीं है या अनुमोदन की प्रतीक्षा कर रही है</string>
+    <string name="No_New_Leads">कोई नया लीड नहीं</string>
+    <string name="Leads_Details">लीड्स के विवरण</string>
+    <string name="My_Cases">मेरे ग्राहक</string>
+    <string name="Please_Select_Rejection_Reason">अस्वीकृति का कारण चुनें</string>
+    <string name="No_FAQ_Present">डेटाबेस में कोई FAQ नहीं है</string>
+    <string name="No_Reviews">अभी तक कोई समीक्षा प्राप्त नहीं हुई है।</string>
+    <string name="Messages">संदेश</string>
+    <string name="Referrals">रेफ़रल</string>
+    <string name="No_Referrals">कोई रेफरल नहीं</string>
+    <string name="Hired_Cases">नियोजित काम</string>
+    <string name="Accepted_Cases">स्वीकृत काम</string>
+    <string name="Rejected_Cases">अस्वीकृत काम</string>
+    <string name="Ongoing_Cases">जारी  काम</string>
+    <string name="Completed_Cases">संपूरित काम</string>
+    <string name="No_Cases_Found">वर्तमान में कोई ग्राहक नहीं है</string>
+    <string name="Default_Language_is_same">चुनी हुई भाषा डिफ़ॉल्ट भाषा के समान है</string>
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
